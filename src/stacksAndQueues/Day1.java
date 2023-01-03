@@ -5,7 +5,7 @@ import java.util.Stack;
 
 public class Day1 {
     // reverse a string using stack
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         String s = "abcde";
         StringBuilder sb = new StringBuilder();
         Stack<Character> st = new Stack<>();
@@ -16,5 +16,10 @@ public class Day1 {
             sb.append(st.pop());
         }
         System.out.println(sb);
+    }
+
+    // Implement two stacks in a single array
+    public static void main(String[] args) {
+
     }
 }
